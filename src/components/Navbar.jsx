@@ -67,7 +67,7 @@ const Navbar = () => {
             <div className=" container navbar_main_parent sticky-top" >
                 <div className='navbar_subparent'>
 
-                    <Link to='/' className='navbar_brand' style={{ marginBottom: "20px" }}> CommunityBubble</Link>
+                    <Link to='/' className='navbar_brand' style={{ marginBottom: "20px" }}> TechBubble</Link>
 
                     <div className="navbar_linksdiv">
 
