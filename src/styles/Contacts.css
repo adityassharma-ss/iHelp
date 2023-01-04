@@ -1,0 +1,19 @@
+.event-parent{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.event-child{
+    text-align: center;
+    max-width: 70%;
+}
+
+.event-child-h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 70px;
+    margin-bottom: 1.5rem !important;
+    color: #f0ad4e;
+
+}

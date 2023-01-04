@@ -1,0 +1,37 @@
+.about_parent{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about_child{
+    text-align: center;
+    margin-right: 150px;
+  max-width: 70%;
+}
+
+.about_head{
+    font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 70px;
+  color: #f0ad4e;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  align-items: center;
+    margin-left: 150px;
+}
+.about_text{
+    margin-left: 350px;
+}
+  
+.about_text1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+  }

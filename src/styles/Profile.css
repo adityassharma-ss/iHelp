@@ -1,0 +1,449 @@
+.pf_mainparent {
+  margin-top: 5rem;
+}
+
+.pf_subparent h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  /* max-width: 70%; */
+  line-height: 70px;
+  margin-bottom: 1.5rem;
+  color: #f5ae14;
+}
+
+.pf_hr1 {
+  background-color: white;
+  color: white;
+  height: 1px;
+  border: 1px solid white;
+  opacity: 0.7;
+}
+
+.pf_headerdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.pf_headerdiv .textdiv {
+  width: 60%;
+}
+
+.pf_headerdiv .textdiv .namediv img {
+  display: none;
+}
+
+.pf_headerdiv .textdiv .biodiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.pf_socialicons {
+  width: 35px;
+  height: 35px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.pf_headerdiv .textdiv p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.pf_headerdiv .imgdiv img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pf_projdiv {
+  margin-top: 3rem;
+}
+
+.pf_projcomm_headerdiv {
+  display: flex;
+  align-items: center;
+}
+
+.pf_projcomm_headerdiv p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 70px;
+  color: #f5ae14;
+  margin: 0px !important;
+  margin-right: 5rem !important;
+}
+
+.pf_projcomm_projectsdiv {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pf_techskills_headerdiv p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 70px;
+  color: #f5ae14;
+}
+
+.pf_techskills_techdiv {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.pf_techskills_techs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 0 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.pf_techskills_techs p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin: 0 0 0 0 !important;
+}
+
+.pf_techskills_del {
+  max-width: 18px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.pf_headerdiv .textdiv .namediv div {
+  display: flex;
+  flex-direction: row;
+  line-height: 70px;
+}
+
+.pf_headerdiv .imgdiv div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pf_editbtn {
+  /* background-color: #d58af6; */
+  background: #f5ae14;
+  box-shadow: 0px 0px 50px -10px rgba(151, 71, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  /* width: 100%; */
+}
+
+/* //* MOBILE */
+
+@media screen and (max-width: 430px) {
+  .pf_headerdiv {
+    flex-direction: column;
+  }
+  .pf_subparent h1 {
+    font-size: 3rem;
+    line-height: 60px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .pf_headerdiv .textdiv {
+    width: 95%;
+  }
+
+  .pf_headerdiv .textdiv .namediv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pf_headerdiv .textdiv .namediv img {
+    display: flex;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 1rem;
+    object-fit: cover;
+  }
+
+  .pf_headerdiv .imgdiv img {
+    display: none;
+  }
+
+  .pf_headerdiv .textdiv p {
+    font-size: 1rem;
+  }
+
+  .pf_techskills_headerdiv p {
+    font-size: 3rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .pf_techskills_techdiv {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pf_projcomm_headerdiv p {
+    font-size: 3rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .pf_projcomm_projectsdiv {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* //* EDIT PROFILE  */
+.ep_name_input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem !important;
+  color: #f5ae14 !important;
+  margin: 0px !important;
+  width: 90%;
+  margin-bottom: 1rem !important;
+}
+
+.ep_bio_input {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  /* line-height: 1.8; */
+  letter-spacing: 1px;
+  width: 90%;
+  min-height: 200px !important;
+  background: #28282b;
+}
+
+.ep_bio_input:focus {
+  background: #28282b;
+  color: white;
+  -webkit-box-shadow: 1px 1px 27px 6px rgba(168, 127, 243, 0.36) !important;
+  -moz-box-shadow: 1px 1px 27px 6px rgba(168, 127, 243, 0.36) !important;
+  box-shadow: 1px 1px 27px 6px rgba(168, 127, 243, 0.36) !important;
+}
+
+.ep_socials_div {
+  margin-top: 3rem;
+}
+.ep_socials_div p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 70px;
+  color: #f5ae14;
+}
+
+.ep_socials_inputdiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ep_socials_inputdiv input::placeholder {
+  color: rgba(255, 255, 255, 0.789);
+}
+
+.ep_socials_inputdiv input {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.2rem !important;
+  /* line-height: 1.8; */
+  letter-spacing: 1px;
+  width: 40%;
+  background: #28282b;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ep_image_input {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+.ep_savechanges_btn {
+  /* background-color: #d58af6; */
+  background: #f5ae14;
+  box-shadow: 0px 0px 50px -10px rgba(151, 71, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  width: 70%;
+}
+
+.ep_tech_inputdiv {
+  position: relative;
+  margin-right: 1rem;
+}
+.ep_tech_input {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  background: #28282b;
+  height: 40px;
+}
+
+.ep_tech_input::placeholder {
+  color: rgba(255, 255, 255, 0.789);
+}
+
+.pf_techskills_techs p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  background-color: rgb(255, 255, 255);
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.ep_tech_addicon {
+  position: absolute;
+  width: 25px;
+  right: 7px;
+  top: 7.8px;
+  z-index: 100;
+}
+
+.pf_projcomm_addbtn {
+  /* background-color: #d58af6; */
+  background: #f5ae14;
+  box-shadow: 0px 0px 50px -10px rgba(151, 71, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  /* width: 70%; */
+}
+
+.pf_projcomm_addbtn:hover {
+  background: #f5ae14;
+  color: black;
+}
+
+.pf_modal {
+  backdrop-filter: blur(3px);
+}
+
+/* //* ADD PROJECT  */
+.ap_uploadbtn {
+  /* background-color: #d58af6; */
+  background: #f5ae14;
+  box-shadow: 0px 0px 50px -10px rgba(151, 71, 255, 0.08);
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ap_uploadbtn:hover {
+  background: #f5ae14;
+}
+
+.ap_modal_body {
+  padding: 20px 20px;
+}
+
+.ap_header1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem !important;
+  /* max-width: 70%; */
+  color: #f5ae14 !important;
+  margin: 0px !important;
+}
+
+.ap_input_label {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.ap_input {
+  color: black !important;
+  background-color: white !important;
+}
+
+.ap_textarea {
+  color: black !important;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  min-height: 10.8rem !important;
+  margin-top: 1rem;
+}
+
+.ap_input_file {
+  color: black !important;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.ap_inputdiv1 {
+  display: flex;
+  justify-content: space-between !important;
+  margin-bottom: 2rem;
+}
+
+.ap_img_inptdiv {
+  max-width: 15rem;
+}
+
+.ap_img_inptdiv input {
+  max-width: 15rem;
+  margin-top: 1rem;
+}
+.ap_img_inptdiv img {
+  max-width: 15rem;
+  border-radius: 10px;
+  min-width: 15rem;
+  min-height: 270px;
+  object-fit: cover;
+}
+
+.ap_inputdiv2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ap_inputdiv2 div {
+  width: 45%;
+  margin-bottom: 1rem;
+}
