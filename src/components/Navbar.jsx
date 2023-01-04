@@ -75,7 +75,7 @@ const Navbar = () => {
                         <Link to='/communities' className='navbar_links'>COMMUNITIES</Link>
                         <Link to='/projects' className='navbar_links'>PROJECTS</Link>
                         <Link to='/events' className='navbar_links'>EVENTS</Link>
-                        <Link to='/contacts' className='navbar_links'>CONTACTS</Link>
+                        <Link to='/mentoships' className='navbar_links'>MENTORSHIPS</Link>
                         <Link to='/sponsors' className='navbar_links'>SPONSORS</Link>
 
                         {isusername && <Link to={localStorage.getItem('username')} className='navbar_links'>PROFILE</Link>}
@@ -85,7 +85,7 @@ const Navbar = () => {
 
                     </div>
 
-                    {Cookies.get('token') ? <button type='button' className='btn btn-warning navbar_joinus_button' onClick={() => { handleLogout() }}>LOG OUT</button> : <button type='button' className='btn btn-warning navbar_joinus_button' onClick={() => { navigate('/signup') }}>SIGN UP</button>}
+                    {Cookies.get('token') ? <button type='button' className='btn btn-warning navbar_joinus_button' onClick={() => { handleLogout() }}>LOG OUT</button> : <button type='button' className='btn btn-warning navbar_joinus_button' onClick={() => { navigate('/signup') }}>JOIN</button>}
 
 
                     <GiHamburgerMenu className='navbar_ham' onClick={() => { setshowdropdown(!showdropdown) }} />
@@ -100,7 +100,7 @@ const Navbar = () => {
                     <p>Home</p>
                     <p>About</p>
                     <p>Contact</p>
-                    <button type='button' className='btn btn-warning navbar_joinus_button'>SIGN UP</button>
+                    <button type='button' className='btn btn-warning navbar_joinus_button'>JOIN</button>
 
                 </div>
             </div>}

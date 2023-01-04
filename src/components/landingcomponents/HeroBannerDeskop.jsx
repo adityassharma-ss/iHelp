@@ -13,7 +13,7 @@ const HeroBannerDeskop = () => {
                 <div className="hero_main_parent">
 
                     <div className="hero_subparent1">
-                        <p className='heroleftdiv_p2'>Building connections through technology and collaboration</p>
+                        <p className='heroleftdiv_p2'>Motivate, Connect, Educate</p>
                         <p className='heroleftdiv_p3'>Come join us on our journey as we help you connect with other amazing developers, discover valuable products, and join a welcoming community! </p>
                     </div>
                     

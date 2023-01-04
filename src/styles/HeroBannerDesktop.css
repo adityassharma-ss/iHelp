@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
 }
 .hero_subparent1 {
   width: 70%;
@@ -23,7 +23,7 @@
 
 .heroleftdiv_p2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-size: 80px;
   line-height: 80px;
   margin-bottom: 1.5rem !important;
   color: #f0ad4e;

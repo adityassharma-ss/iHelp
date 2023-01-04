@@ -5,9 +5,9 @@ import '@fortawesome/fontawesome-free/css/all.css';
 const Foot = () => {
     return (
       <footer>
-        <div className="footer-logo">Community Bubble</div>
+        <div className="footer-logo">CommunityBubble</div>
         <div className="footer-social-icons">
-          <a href="#" className="footer-social-icon">
+          <a href="https://github.com/CommunityBubble" className="footer-social-icon">
             <i className="fab fa-github"></i>
           </a>
           <a href="#" className="footer-social-icon">
@@ -16,8 +16,17 @@ const Foot = () => {
           <a href="#" className="footer-social-icon">
             <i className="fab fa-instagram"></i>
           </a>
+          <a href="#" className="footer-social-icon">
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a href="#" className="footer-social-icon">
+            <i className="fab fa-discord"></i>
+          </a>
+          <a href="#" className="footer-social-icon">
+            <i className="fab fa-telegram"></i>
+          </a>
         </div>
-        <div className="footer-copyright">&copy; CommunityBubble</div>
+        <div className="footer-copyright">&copy;  Copyrights by CommunityBubble All Rights Reserved.</div>
         <div className="footer-made-by">Made by Aditya</div>
       </footer>
     );

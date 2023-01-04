@@ -14,7 +14,7 @@ import State from './context/State'
 import Projects from './pages/Projects'
 import Footer from './components/Footer'
 import Event from './pages/Events.jsx'
-import Contact from './pages/Contact.jsx'
+import Mentorships from './pages/Mentorships'
 import Sponsors from './pages/Sponsors'
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
             <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/events" element={<Event />} />
-            <Route exact path="/contacts" element={<Contact />} />
+            <Route exact path="/mentorships" element={<Mentorships />} />
             <Route exact path="/sponsors" element={<Sponsors />} />
 
 
