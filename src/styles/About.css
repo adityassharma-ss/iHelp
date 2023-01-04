@@ -2,16 +2,17 @@
     margin-top: 8rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 }
 
 .about_child{
-    text-align: center;
-    margin-right: 150px;
-  max-width: 70%;
+  text-align: center;
+  margin-right: 150px;
+max-width: 70%;
 }
 
 .about_head{
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 70px;
   color: #f0ad4e;
@@ -19,7 +20,9 @@
   word-wrap: break-word;
   word-break: break-word;
   align-items: center;
-    margin-left: 150px;
+  margin-left: -520px;
+  margin-top: -400px;
+
 }
 .about_text{
     margin-left: 350px;
@@ -34,4 +37,64 @@
     margin-bottom: 10px;
     width: 70%;
     margin-bottom: 20px;
+  
   }
+
+  .about-image {
+    position: relative;
+    margin-left: 700px;
+    right: 0;
+    top: 0;
+    width: 50%;
+    size: 50;
+    margin-bottom: 50px;
+}
+
+
+.about-points {
+  list-style: none;
+  margin: -20px 0 0 0;
+  padding: 0;
+  margin-right: 300px;
+  align-items: left;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.about-points p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  width: 70%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.about-points li::before {
+  content: "•";
+  color: #f0ad4e;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+
+.join-discord-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0ad4e;
+  color: #211d1d;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.join-discord-btn:hover {
+  background-color: #333;
+}
+
