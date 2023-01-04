@@ -75,7 +75,7 @@ const Navbar = () => {
                         <Link to='/communities' className='navbar_links'>COMMUNITIES</Link>
                         <Link to='/projects' className='navbar_links'>PROJECTS</Link>
                         <Link to='/events' className='navbar_links'>EVENTS</Link>
-                        <Link to='/mentoships' className='navbar_links'>MENTORSHIPS</Link>
+                        <Link to='/mentorships' className='navbar_links'>MENTORSHIPS</Link>
                         <Link to='/sponsors' className='navbar_links'>SPONSORS</Link>
 
                         {isusername && <Link to={localStorage.getItem('username')} className='navbar_links'>PROFILE</Link>}
