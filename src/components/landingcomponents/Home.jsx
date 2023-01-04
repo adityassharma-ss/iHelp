@@ -4,7 +4,7 @@ import "../../styles/HeroBannerDesktop.css"
 import Cookies from 'js-cookie'
 import "animate.css/animate.min.css"
 
-const HeroBannerDeskop = () => {
+const Home = () => {
 
     const navigate = useNavigate()
     return (
@@ -23,4 +23,4 @@ const HeroBannerDeskop = () => {
             )
         }
 
-export default HeroBannerDeskop
+export default Home
