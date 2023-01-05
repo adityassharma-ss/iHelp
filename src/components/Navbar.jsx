@@ -97,9 +97,12 @@ const Navbar = () => {
 
             {showdropdown && <div className="navbar_mobile_dropdown_parent">
                 <div className="navbar_mobile_dropdown_subparent">
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Contact</p>
+                        <Link to='/' className='navbar_links'>HOME</Link>
+                        <Link to='/communities' className='navbar_links'>COMMUNITIES</Link>
+                        <Link to='/projects' className='navbar_links'>PROJECTS</Link>
+                        <Link to='/events' className='navbar_links'>EVENTS</Link>
+                        <Link to='/mentorships' className='navbar_links'>MENTORSHIPS</Link>
+                        <Link to='/sponsors' className='navbar_links'>SPONSORS</Link>
                     <button type='button' className='btn btn-warning navbar_joinus_button'>JOIN</button>
 
                 </div>
