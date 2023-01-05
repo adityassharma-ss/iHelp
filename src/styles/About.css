@@ -98,3 +98,32 @@ max-width: 70%;
   background-color: #333;
 }
 
+/* For Mobile view */
+@media (max-width: 768px) {
+  /* Make the parent div take up the full width of the screen */
+  .about_parent {
+    width: 100%;
+  }
+
+  /* Make the child div take up the full width of the parent */
+  .about_child {
+    width: 100%;
+  }
+
+  /* Remove the margins and align the headings and image to the center */
+  .about_head {
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-image {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Remove the margins and align the list items to the left */
+  .about-points {
+    margin: 0;
+    text-align: left;
+  }
+}
