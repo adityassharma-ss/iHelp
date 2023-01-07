@@ -1,24 +1,27 @@
 @import 'animate.css';
 
-.animated bounceInRight{
+.animated {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
 
+.bounceInRight {
+  animation-name: bounceInRight;
+}
 
 .hero_main_parent {
   display: flex;
-  text-align: center;
-  margin-top: -100px;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
   width: 100%;
   height: 70vh;
+  margin-top: -100px;
 }
+
 .hero_subparent1 {
   width: 70%;
   text-align: center;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .heroleftdiv_p2 {
@@ -40,10 +43,10 @@
 }
 
 .hero_image_leftdiv p {
-  margin: 0px;
+  margin: 0;
 }
+
 .heroleftdiv_button {
-  /* background-color: #d58af6; */
   background: #f0ad4e;
   box-shadow: 0px 0px 50px -10px rgba(151, 71, 255, 0.08);
   font-family: "Poppins", sans-serif;
@@ -65,7 +68,6 @@
   display: none;
 }
 
-/* //* MOBILE */
 @media screen and (max-width: 430px) {
   .hero_subparent1 {
     width: 100%;
@@ -77,7 +79,7 @@
   }
 
   .heroleftdiv_mobile_p2div {
-    display: contents;
+    display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 3.5rem;
     line-height: 50px;
