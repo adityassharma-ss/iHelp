@@ -22,7 +22,7 @@
 .commcard_card_imgdiv {
   display: flex;
   justify-content: center;
-  background: #28282b;
+  background: #323299;
 }
 .commcard_card_imgdiv img {
   max-width: 15rem;
@@ -36,7 +36,7 @@
 
 .commcard_card_textdiv {
   font-family: "Poppins", sans-serif;
-  color: rgba(0, 0, 0, 0.92);
+  color: rgba(255, 255, 255, 0.92);
   padding: 0px 10px;
 }
 
@@ -54,7 +54,7 @@
 }
 .commcard_username {
   margin: 0px;
-  color: #000000c9;
+  color: #d4cdcdc9;
 }
 
 .commcard_userimg {
@@ -75,7 +75,7 @@
 
 .commcard_card_textdiv2 {
   font-family: "Poppins", sans-serif;
-  color: rgba(0, 0, 0, 0.92);
+  color: rgba(241, 241, 241, 0.92);
   padding: 0px 10px;
 }
 .commcard_card_textdiv2 h3 {

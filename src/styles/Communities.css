@@ -27,6 +27,10 @@
   color: white !important;
   height: 2px;
 }
+
+.fab fa-github{
+  color:rgba(241, 147, 6, 0.911);
+}
 .comm_header_p2 {
   display: block;
   text-align: center;
@@ -72,8 +76,60 @@
 
 .comm_carddiv {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 2rem;
+}
+
+.comm_list {
+  display: block;
+  width: 80%; /* Set the width of the element */
+  margin: 0 auto; /* Center the element horizontally */
+  justify-content: center;
+  
+}
+
+.comm_list_item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(241, 147, 6, 0.911), 0 1px 2px rgba(241, 147, 6, 0.911);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 2rem;
+}
+
+.comm_list_item:hover {
+  box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.comm_name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+.comm_description {
+  font-size: 1.5rem;
+  color: #777;
+  text-align: center;
+}
+
+.comm_link {
+  color: #f5ae14;
+  text-decoration: none;
+  animation-name:var(#777) ;
+  animation-fill-mode: forwards;
+}
+
+.comm_link:hover {
+  color: white;
+  box-shadow: #f5ae14;
 }
 
 @media screen and (max-width: 430px) {
