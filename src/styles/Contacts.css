@@ -1,5 +1,6 @@
 .page-container {
     display: flex; /* display the navbar and roadmap side by side */
+    background-color: #000;
   }
   
   .navbar-container {
@@ -44,5 +45,6 @@
   
   .roadmap-item {
     /* add styles for the roadmap items here */
+    color: #fff;
   }
   
