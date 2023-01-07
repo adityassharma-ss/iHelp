@@ -1,19 +1,48 @@
-.event-parent{
-    margin-top: 8rem;
-    display: flex;
+.page-container {
+    display: flex; /* display the navbar and roadmap side by side */
+  }
+  
+  .navbar-container {
+    width: 20%; /* set the width of the navbar */
+    height: 100%; /* set the height of the navbar to fill the page */
+    background-color: #000; /* set the background color of the navbar to black */
+    display: flex; /* display the navbar items vertically */
+    flex-direction: column;
+    align-items: center; /* center the navbar items horizontally */
+  }
+  
+  .navbar-item {
+    color: #fff; /* set the color of the navbar items to white */
+    font-size: 1.2rem; /* increase the font size of the navbar items */
+    padding: 1rem 0; /* add some padding to the navbar items */
+    cursor: pointer; /* show the cursor as a pointer when hovering over the navbar items */
+  }
+  
+  .navbar-item:hover {
+    background-color: #444; /* change the background color of the navbar item on hover */
+  }
+  
+  .navbar-heading {
+    font-size: 1.5rem; /* increase the font size of the navbar heading */
+    font-weight: bold; /* make the navbar heading bold */
+    color: #fff; /* set the color of the navbar heading to white */
+    margin-bottom: 1rem; /* add some margin below the navbar heading */
+    box-shadow: rgb(11, 160, 202);
+    margin-top: 20px;
+    text-decoration-color: #f5ae14;
+    text-decoration-line:underline ;
+  }
+  
+  .roadmap-container {
+    width: 80%; /* set the width of the roadmap to the remaining space on the page */
+    height: 100%; /* set the height of the roadmap to fill the page */
+    background-color: #fff; /* set the background color of the roadmap to white */
+    display: flex; /* center the roadmap items vertically and horizontally */
+    align-items: center;
     justify-content: center;
-}
-
-.event-child{
-    text-align: center;
-    max-width: 70%;
-}
-
-.event-child-h1{
-    font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    line-height: 70px;
-    margin-bottom: 1.5rem !important;
-    color: #f0ad4e;
-
-}
+  }
+  
+  .roadmap-item {
+    /* add styles for the roadmap items here */
+  }
+  

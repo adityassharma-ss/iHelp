@@ -14,7 +14,7 @@ import State from './context/State'
 import Projects from './pages/Projects'
 import Footer from './components/Footer'
 import Event from './pages/Events.jsx'
-import Mentorships from './pages/Mentorships'
+import Mentorships from './pages/Mentorships.jsx'
 import Sponsors from './pages/Sponsors'
 
 function App() {
