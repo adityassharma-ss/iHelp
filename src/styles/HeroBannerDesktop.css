@@ -71,6 +71,7 @@
 @media screen and (max-width: 430px) {
   .hero_subparent1 {
     width: 100%;
+    color: #f0ad4e;
     margin-top: 5rem;
   }
 
