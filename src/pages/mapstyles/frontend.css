@@ -12,10 +12,12 @@
 .front-sub {
   font-size: 2rem;
   margin: 1rem 0;
+  
 }
 .front-sub:hover{
   color: orange;
 }
+
 
 ul {
   width: 80%;

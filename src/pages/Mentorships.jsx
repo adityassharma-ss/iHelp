@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Contacts from '../styles/Contacts.css'
 import Frontend from './roadmaps/Frontend';
+import FullStack from './roadmaps/Fullstack';
 
 const Mentorships = () => {
   const [selectedSubject, setSelectedSubject] = useState('subject1') // state to keep track of the selected subject
@@ -56,7 +57,7 @@ const Mentorships = () => {
       <div className='roadmap-container'>
         {selectedSubject === 'subject1' && (
           <div className='roadmap-item'>
-            {}
+            {<FullStack/>}
           </div>
         )}
         {selectedSubject === 'subject2' && (
