@@ -50,6 +50,16 @@ const Communities = () => {
             <p className="comm_description">Open Technologies developed in Asia and Around the Globe</p>
             <a href="https://github.com/fossasia" className="comm_link">Join now</a>
           </li>
+          <li className="comm_list_item">
+            <h2 className="comm_name"> Sitepoint Community</h2>
+            <p className="comm_description">SitePoint community is a community for web designers and developers to discuss everything web development from HTML, CSS, JavaScript, PHP, Photoshop, SEO, and more.</p>
+            <a href="https://www.sitepoint.com/community/" className="comm_link">Join now</a>
+          </li>
+          <li className="comm_list_item">
+            <h2 className="comm_name"> Woman Who Code</h2>
+            <p className="comm_description">Empowering Women in Technology</p>
+            <a href="https://www.womenwhocode.com/" className="comm_link">Join now</a>
+          </li>
         </ul>
       </div>
     </div>
