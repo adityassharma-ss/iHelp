@@ -53,7 +53,8 @@ footer a:hover {
 }
 
 .footer-social-icon:hover {
-  background-color: #f0ad4e;
+  background-color: #ffffff;
+  color: #050505;
 }
 
 .footer-social-icon img {
