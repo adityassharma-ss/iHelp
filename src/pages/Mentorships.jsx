@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import Home from './roadmaps/Home'
 import Contacts from '../styles/Contacts.css'
 import Frontend from './roadmaps/Frontend';
 import FullStack from './roadmaps/Fullstack';
 import Backend from './roadmaps/Backend';
+
 
 const Mentorships = () => {
   const [selectedSubject, setSelectedSubject] = useState('subject1') // state to keep track of the selected subject
@@ -12,6 +14,9 @@ const Mentorships = () => {
       {/* Left navbar */}
       <div className='navbar-container'>
       <div className='navbar-heading'>Contents</div>
+      <div className='navbar-item' onClick={() => setSelectedSubject('subject0')}>
+          Home
+        </div>
         <div className='navbar-item' onClick={() => setSelectedSubject('subject1')}>
           Full Stack Development
         </div>
@@ -50,6 +55,15 @@ const Mentorships = () => {
         </div>
         <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
           Computer Science
+        </div>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+          B.Tech
+        </div>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+          M.Tech
+        </div>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+          MBA
         </div>
         {/* add more navbar items here */}
       </div>

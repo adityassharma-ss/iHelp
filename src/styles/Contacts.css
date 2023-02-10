@@ -1,59 +1,59 @@
 .page-container {
-    display: flex; /* display the navbar and roadmap side by side */
-    background-color: #000;
-  }
-  
-  .navbar-container {
-    width: 20%; /* set the width of the navbar */
-    height: 100%; /* set the height of the navbar to fill the page */
-    background-color: #000; /* set the background color of the navbar to black */
-    display: flex; 
-    flex-direction: column;
-    align-items: center; /* center the navbar items horizontally */
-    position: fixed;
-    overflow: auto;
-    left: 0;
-    top: 0;
-    margin-top: 5%;
-  }
-  
-  .navbar-item {
-    color: rgb(255, 255, 255); /* set the color of the navbar items to white */
-    font-size: 1.2rem; /* increase the font size of the navbar items */
-    padding: 1rem 0; /* add some padding to the navbar items */
-    cursor: pointer; /* show the cursor as a pointer when hovering over the navbar items */
-  }
-  
-  .navbar-item:hover {
-    /* background-color: rgb(193, 97, 13); change the background color of the navbar item on hover */
-    color: #f5ae14;
-  }
-  
-  .navbar-heading {
-    font-size: 1.5rem; /* increase the font size of the navbar heading */
-    font-weight: bold; /* make the navbar heading bold */
-    color: rgb(255, 255, 255); /* set the color of the navbar heading to white */
-    margin-bottom: 1rem; /* add some margin below the navbar heading */
-    box-shadow: rgb(11, 160, 202);
-    margin-top: 20px;
-    text-decoration-color: #f5ae14;
-  }
-  .navbar-heading:hover{
-    color:#f5ae14
-  }
-  
-  .roadmap-container {
-    width: 80%; /* set the width of the roadmap to the remaining space on the page */
-    height: 100%; /* set the height of the roadmap to fill the page */
-    background-color: rgb(0, 0, 0); /* set the background color of the roadmap to white */
-    display: flex; /* center the roadmap items vertically and horizontally */
-    align-items: center;
-    justify-content: center;
-    overflow: auto;
-  }
-  
-  .roadmap-item {
-    /* add styles for the roadmap items here */
-    color: rgb(255, 255, 255);
-  }
-  
+  display: flex; /* display the navbar and roadmap side by side */
+  background-color: #000;
+}
+
+.navbar-container {
+  width: 20%; /* set the width of the navbar */
+  max-height: 80%; /* add a max-height property to control the height of the navbar */
+  height: 100%; /* set the height of the navbar to fill the page */
+  background-color: #000; /* set the background color of the navbar to black */
+  display: flex; 
+  flex-direction: column;
+  align-items: center; /* center the navbar items horizontally */
+  position: fixed;
+  overflow-y: scroll; /* add an overflow-y property to enable scrolling */
+  left: 0;
+  top: 0;
+  margin-top: 5%;
+}
+
+.navbar-item {
+  color: rgb(255, 255, 255); /* set the color of the navbar items to white */
+  font-size: 1.2rem; /* increase the font size of the navbar items */
+  padding: 1rem 0; /* add some padding to the navbar items */
+  cursor: pointer; /* show the cursor as a pointer when hovering over the navbar items */
+}
+
+.navbar-item:hover {
+  /* background-color: rgb(193, 97, 13); change the background color of the navbar item on hover */
+  color: #f5ae14;
+}
+
+.navbar-heading {
+  font-size: 1.5rem; /* increase the font size of the navbar heading */
+  font-weight: bold; /* make the navbar heading bold */
+  color: rgb(255, 255, 255); /* set the color of the navbar heading to white */
+  margin-bottom: 1rem; /* add some margin below the navbar heading */
+  box-shadow: rgb(11, 160, 202);
+  margin-top: 20px;
+  text-decoration-color: #f5ae14;
+}
+.navbar-heading:hover{
+  color:#f5ae14
+}
+
+.roadmap-container {
+  width: 80%; /* set the width of the roadmap to the remaining space on the page */
+  height: 100%; /* set the height of the roadmap to fill the page */
+  background-color: rgb(0, 0, 0); /* set the background color of the roadmap to white */
+  display: flex; /* center the roadmap items vertically and horizontally */
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.roadmap-item {
+  /* add styles for the roadmap items here */
+  color: rgb(255, 255, 255);
+}
