@@ -16,6 +16,7 @@ import Footer from './components/Footer'
 import Event from './pages/Events.jsx'
 import Mentorships from './pages/Mentorships.jsx'
 import Sponsors from './pages/Sponsors'
+import CarreerChoice from './pages/CareerChoice'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/events" element={<Event />} />
             <Route exact path="/mentorships" element={<Mentorships />} />
+            <Route exact path="/careerchoice" element={<CarreerChoice />} />
             <Route exact path="/sponsors" element={<Sponsors />} />
 
 

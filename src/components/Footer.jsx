@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 const Foot = () => {
     return (
       <footer>
-        <div className="footer-logo">TechBubble</div>
+        <div className="footer-logo">iHelp</div>
         <div className="footer-social-icons">
           <a href="https://github.com/CommunityBubble" className="footer-social-icon">
             <i className="fab fa-github"></i>
@@ -26,8 +26,8 @@ const Foot = () => {
             <i className="fab fa-telegram"></i>
           </a>
         </div>
-        <div className="footer-copyright">&copy;  Copyrights by TechBubble All Rights Reserved.</div>
-        <div className="footer-made-by">Made by Aditya</div>
+        <div className="footer-copyright">&copy;  Copyrights by iHelp All Rights Reserved</div>
+        <div className="footer-made-by">Made by TeamCodeLive</div>
       </footer>
     );
   };
