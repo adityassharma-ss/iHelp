@@ -4,10 +4,12 @@ import Contacts from '../styles/Contacts.css'
 import Frontend from './roadmaps/Frontend';
 import FullStack from './roadmaps/Fullstack';
 import Backend from './roadmaps/Backend';
+import Android from './roadmaps/Android';
+import Blockchain from './roadmaps/Blockchain';
 
 
 const Mentorships = () => {
-  const [selectedSubject, setSelectedSubject] = useState('subject1') // state to keep track of the selected subject
+  const [selectedSubject, setSelectedSubject] = useState('subject0') // state to keep track of the selected subject
 
   return (
     <div className='page-container'>
@@ -26,10 +28,10 @@ const Mentorships = () => {
         <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
           Backend Development
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject4')}>
           Android Development
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject5')}>
           Blockchain Development
         </div>
         <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
@@ -85,14 +87,14 @@ const Mentorships = () => {
             { <Backend/> }
           </div>
         )}
-        {selectedSubject === 'subject1' && (
+        {selectedSubject === 'subject4' && (
           <div className='roadmap-item'>
-            {/* subject 1 course roadmap */}
+            { <Android/> }
           </div>
         )}
-        {selectedSubject === 'subject1' && (
+        {selectedSubject === 'subject5' && (
           <div className='roadmap-item'>
-            {/* subject 1 course roadmap */}
+            { <Blockchain/> }
           </div>
         )}
         {selectedSubject === 'subject1' && (
