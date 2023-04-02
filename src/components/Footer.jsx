@@ -26,8 +26,8 @@ const Foot = () => {
             <i className="fab fa-telegram"></i>
           </a>
         </div>
-        <div className="footer-copyright">&copy;  Copyrights by iHelp All Rights Reserved</div>
-        <div className="footer-made-by">Made by TeamCodeLive</div>
+        <div className="footer-copyright">&copy;  Copyrights by iHelp. All Rights Reserved.</div>
+        <div className="footer-made-by"><a href="https://github.com/CodeLive-Community" style={{ fontSize: "14px"}}>Made by TeamCodeLive</a> </div>
       </footer>
     );
   };

@@ -73,7 +73,7 @@ const CommunityBannerDesktop = () => {
 
 
                         <div style={{ width: "100%", display: "flex", justifyContent: "flex-end" }}>
-                            <p className='cb_rightdiv_p2'>Discover and join awesome tech communities from around the globe, or create your own community for others to join!</p>
+                            <p className='cb_rightdiv_p2'>Discover and join awesome communities from around the globe, or create your own community for others to join!</p>
                         </div>
                     </div>
                 </div>
