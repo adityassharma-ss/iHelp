@@ -1,5 +1,5 @@
 # iHelp
-Welcome to TechBubble, the ultimate platform for connecting with tech communities from all over the world!
+Welcome to iHelp, the ultimate platform for connecting with tech communities from all over the world!
 
 Our mission is to help you discover and engage with the top communities in your field of interest, whether it's open-source development, front-end technologies like React and Next.js, or back-end frameworks like Express.js.
 
