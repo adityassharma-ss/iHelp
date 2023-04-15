@@ -1,57 +1,35 @@
-/* .home-container {
+.home-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-color: #f7f7f7;
+  background-color: #000000; 
 }
 
 .header {
-  margin-bottom: 2rem;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .header-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  width: 100%;
-  max-width: 800px;
+.header-description {
+  font-size: 1.3rem;
+  color: #ffffff;
+  line-height: 1.5;
+  margin-top: 20px;
 }
 
-.card {
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  width: calc(33% - 2rem);
-  min-width: 280px;
-  margin-bottom: 2rem;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
+.header-description a {
+  color: #3f51b5;
+  text-decoration: none;
 }
 
-.card:hover {
-  transform: translateY(-0.5rem);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+.header-description a:hover {
+  text-decoration: underline;
 }
-
-.card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 1rem;
-}
-
-.card-text {
-  font-size: 1.2rem;
-  color: #333;
-} */

@@ -74,7 +74,7 @@ const Mentorships = () => {
       <div className='roadmap-container'>
       {selectedSubject === 'subject0' && (
           <div className='roadmap-item'>
-            {/* {<Home/>} */}
+            {<Home/>}
           </div>
         )}
         {selectedSubject === 'subject1' && (
