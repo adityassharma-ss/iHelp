@@ -6,6 +6,13 @@ import FullStack from './roadmaps/Fullstack';
 import Backend from './roadmaps/Backend';
 import Android from './roadmaps/Android';
 import Blockchain from './roadmaps/Blockchain';
+import Devops from './roadmaps/Devops';
+import OpenSource from './roadmaps/OpenSource';
+import Machinelearning from './roadmaps/Machinelearning';
+import Cybersecurity from './roadmaps/Cybersecurity';
+import Competitiveprogramming from './roadmaps/Competitiveprogramming';
+import Cloudcomputing from './roadmaps/Cloudcomputing';
+import Datascience from './roadmaps/Datascience';
 
 
 const Mentorships = () => {
@@ -34,25 +41,25 @@ const Mentorships = () => {
         <div className='navbar-item' onClick={() => setSelectedSubject('subject5')}>
           Blockchain Development
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject6')}>
           DevOps 
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject7')}>
           OpenSource
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject8')}>
           Machine Learning
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
-          Competitive Programming
-        </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject9')}>
           Cyber Security
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject10')}>
+          Competitive Programming
+        </div>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject11')}>
           Cloud Computing
         </div>
-        <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
+        <div className='navbar-item' onClick={() => setSelectedSubject('subject12')}>
           Data Science
         </div>
         <div className='navbar-item' onClick={() => setSelectedSubject('subject3')}>
@@ -102,24 +109,39 @@ const Mentorships = () => {
             { <Blockchain/> }
           </div>
         )}
-        {selectedSubject === 'subject1' && (
+        {selectedSubject === 'subject6' && (
           <div className='roadmap-item'>
-            {/* subject 1 course roadmap */}
+            { <Devops/>}
           </div>
         )}
-        {selectedSubject === 'subject1' && (
+        {selectedSubject === 'subject7' && (
           <div className='roadmap-item'>
-            {/* subject 1 course roadmap */}
+            { <OpenSource/> }
           </div>
         )}
-        {selectedSubject === 'subject1' && (
+        {selectedSubject === 'subject8' && (
           <div className='roadmap-item'>
-            {/* subject 1 course roadmap */}
+            {<Machinelearning/>}
           </div>
         )}
-        {selectedSubject === 'subject1' && (
+        {selectedSubject === 'subject9' && (
           <div className='roadmap-item'>
-            {/* subject 1 course roadmap */}
+            {<Cybersecurity/>}
+          </div>
+        )}
+        {selectedSubject === 'subject10' && (
+          <div className='roadmap-item'>
+            {<Competitiveprogramming/>}
+          </div>
+        )}
+        {selectedSubject === 'subject11' && (
+          <div className='roadmap-item'>
+            {<Cloudcomputing/>}
+          </div>
+        )}
+        {selectedSubject === 'subject12' && (
+          <div className='roadmap-item'>
+            {<Datascience/>}
           </div>
         )}
         {/* add more roadmap items here */}
