@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import "../../styles/HeroBannerDesktop.css"
 import Cookies from 'js-cookie'
 import "animate.css/animate.min.css"
+import Chatbox from "./Chatbox"
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
                     
                 </div>
             </div>
+            <Chatbox /> {/* Render the Chatbox component */}
             </>
             )
         }
