@@ -1,0 +1,49 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%) !important;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+
+    border-radius: 10px;
+    display: block;
+}
+
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.trending_topic_card {
+    background: rgba(255, 255, 255, 0.15);
+    /*  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.btn-gradinactive {
+    background-image: linear-gradient(to right, #C04848 0%, #480048 51%, #C04848 100%) !important;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-gradinactive:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

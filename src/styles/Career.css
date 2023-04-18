@@ -11,7 +11,7 @@
 
 }
 
-.header {
+career.header {
   margin-top: 50px;
   background-color: #000000;
 }
@@ -96,3 +96,151 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+.career-choice-container {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.career-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.career-header-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #f7f7f7;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4a4a4a;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 18px;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+
+.list-group-item {
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 18px;
+  color: #4a4a4a;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #e6e6e6;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+  font-size: 18px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-results li {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #4a4a4a;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-results li:hover {
+  background-color: #f7f7f7;
+}
+
+.featured-jobs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featured-jobs li {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.featured-jobs li:hover {
+  box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.job-company {
+  font-size: 18px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.job-location {
+  font-size: 18px;
+  color: #4a4a4a;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.job-location:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #403d3d;
+  margin-right: 10px;
+}
+
+.job-location span {
+  margin-left: 5px;
+}
+
